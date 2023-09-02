@@ -5,89 +5,72 @@
 
 \book {
   \bookpart {
-    \section "1" "First"
-    \addTocEntry
+    \section "Te Deum"
+    % \addTocEntry
     \paper { indent = 3\cm }
     \score { %\articulate
       <<
         \new StaffGroup <<
-          \new GrandStaff <<
-            \set GrandStaff.instrumentName = "Oboe"
-            \new Staff {
-              \set Staff.instrumentName = "I"
-              \xxxOboeI
-            }
-            \new Staff {
-              \set Staff.instrumentName = "II"
-              \xxxOboeII
-            }
-          >>
-        >>
-        \new StaffGroup <<
           \new Staff <<
-            \set Staff.instrumentName = \transposedName "Clarino I, II" "C" ""
-            % \transpose c c
-            \partCombine #'(0 . 10) \xxxClarinoI \xxxClarinoII
+            \set Staff.instrumentName = \transposedName "Clarino I, II" "D" ""
+            % \transpose c d
+            \partCombine #'(0 . 10) \TeDeumClarinoI \TeDeumClarinoII
           >>
         >>
         \new Staff {
-          \set Staff.instrumentName = \transposedTimp "C" "" "G" ""
-          % \transpose c c
-          \xxxTimpani
+          \set Staff.instrumentName = \transposedTimp "D" "" "A" ""
+          % \transpose c d
+          \TeDeumTimpani
         }
         \new StaffGroup <<
-          \new GrandStaff \with { \smallGroupDistance } <<
+          \new GrandStaff <<
             \set GrandStaff.instrumentName = "Violino"
             \new Staff {
               \set Staff.instrumentName = "I"
-              \xxxViolinoI
+              \TeDeumViolinoI
             }
             \new Staff {
               \set Staff.instrumentName = "II"
-              \xxxViolinoII
+              \TeDeumViolinoII
             }
           >>
-          \new Staff {
-            \set Staff.instrumentName = "Viola"
-            \xxxViola
-          }
         >>
         \new ChoirStaff <<
           \new Staff {
             \incipitSoprano
-            \new Voice = "Soprano" { \dynamicUp \xxxSoprano }
+            \new Voice = "Soprano" { \dynamicUp \TeDeumSoprano }
           }
-          \new Lyrics \lyricsto Soprano \xxxSopranoLyrics
+          \new Lyrics \lyricsto Soprano \TeDeumSopranoLyrics
 
           \new Staff {
             \incipitAlto
-            \new Voice = "Alto" { \dynamicUp \xxxAlto }
+            \new Voice = "Alto" { \dynamicUp \TeDeumAlto }
           }
-          \new Lyrics \lyricsto Alto \xxxAltoLyrics
+          \new Lyrics \lyricsto Alto \TeDeumAltoLyrics
 
           \new Staff {
             \incipitTenore
-            \new Voice = "Tenore" { \dynamicUp \xxxTenore }
+            \new Voice = "Tenore" { \dynamicUp \TeDeumTenore }
           }
-          \new Lyrics \lyricsto Tenore \xxxTenoreLyrics
+          \new Lyrics \lyricsto Tenore \TeDeumTenoreLyrics
 
           \new Staff {
             \set Staff.instrumentName = "Basso"
-            \new Voice = "Basso" { \dynamicUp \xxxBasso }
+            \new Voice = "Basso" { \dynamicUp \TeDeumBasso }
           }
-          \new Lyrics \lyricsto Basso \xxxBassoLyrics
+          \new Lyrics \lyricsto Basso \TeDeumBassoLyrics
         >>
         \new StaffGroup <<
           \new Staff {
             \set Staff.instrumentName = \markup \center-column { "Organo" "e Bassi" }
             % \transpose c c,
-            \xxxOrgano
+            \TeDeumOrgano
           }
         >>
-        \new FiguredBass { \xxxBassFigures }
+        \new FiguredBass { \TeDeumBassFigures }
       >>
       \layout { }
-      \midi { \tempo 4 = 90 }
+      \midi { \tempo 4 = 80 } % 80 – 75 – 150 – 110
     }
   }
 }
