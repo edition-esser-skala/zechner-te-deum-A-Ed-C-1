@@ -115,7 +115,7 @@ TeDeumBasso = {
     r e g
     h1 r2
     R1.
-    \mvTr dis,2\fE^\tuttiE e2. e4 %260
+    dis,2^\tuttiE e2. e4 %260
     h1 e2
     d! r ais
     h r cis

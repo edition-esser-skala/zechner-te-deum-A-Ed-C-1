@@ -47,7 +47,7 @@ TeDeumSoprano = {
     dis8. dis16 dis4 r dis
     e e e8. e16 e4
     R1
-    \mvTr fis4\fE^\tuttiE r d! r
+    fis4 r d! r
     d2 cis4 cis %90
     h4. h8 ais4 r
     R1*5 %96
@@ -165,7 +165,7 @@ TeDeumSoprano = {
     r h h
     h1 r2
     R1.
-    \mvTr a2\fE^\tuttiE g2. g4 %260
+    a2^\tuttiE g2. g4 %260
     fis1 ais2
     h r e
     d! r ais

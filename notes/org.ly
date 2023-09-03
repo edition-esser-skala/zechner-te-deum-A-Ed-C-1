@@ -4,6 +4,7 @@ TeDeumOrgano = {
   \relative c {
     \clef bass
     \key d \major \time 4/4 \tempoTeDeum
+      \tightNotes
     \mvTr d'8\fE-\tutti d, fis a d d, fis a
     d d,16. d32 fis16. fis32 a16. a32 d8 d,16. d32 fis16. fis32 a16. a32
     d,16. d'32 cis16. h32 a16. g32 fis16. e32 d4 r
@@ -38,15 +39,15 @@ TeDeumOrgano = {
     d fis d fis g g cis, cis
     fis fis h, h e e a, a
     d r e r fis r g r
-    d h' g a d, cis d cis %35
-    d fis a a, d d gis gis
+    d h' g a d,\fE cis d cis %35
+    d fis\pE a a, d d gis gis
     cis, cis fis fis h, r e r
-    a gis a gis a4 a,8 a'
+    a\fE gis a gis a4 a,8\pE a'
     fis e d16 fis h a gis8 fis e16 gis cis h
     a8 gis fis16 a d h gis8 r gis r %40
     a r h, r cis r d r
-    a' fis d e a, gis a'^\critnote gis
-    \mvTr a\fE-\tutti a,16. a32 a8 a a a' a a
+    a' fis d e a,\fE gis a'^\critnote gis
+    a-\tutti a,16. a32 a8 a a a' a a
     a a,16. a32 a8 a a4 r
     a'16. g!32 a16. h32 a16. g32 fis16. e32 d8 d16. d32 d8 d %45
     d d' d, d d d' d, d
@@ -55,9 +56,9 @@ TeDeumOrgano = {
     a'16. e32 cis16. e32 a,8 r d d fis d
     g, g'e g a d, a4 %50
     d16 .d'32 cis16. h32 a16. g32 fis16. e32 d4 r
-    \mvTr d'8\pE-\solo d, fis a d d, fis a
-    d d,16. d32 fis16. fis32 a16. a32 d8 cis d cis
-    d d, d d cis cis cis cis
+    \mvTr d'8\pE-\solo d, fis a d\fE d, fis a
+    d\pE d,16. d32 fis16. fis32 a16. a32 d8\fE cis d cis
+    d d,\pE d d cis cis cis cis
     h4 h'8 a gis4 gis8 fis %55
     e r e r e r e r
     e r e r a, r a r
@@ -69,22 +70,22 @@ TeDeumOrgano = {
     a' a d, d g g cis,! cis
     fis fis h, h e e a, a
     d r e r fis d g e %65
-    d cis d cis d e fis d
+    d\fE cis d cis d e fis\pE d
     a a' e16. d32 e16. fis32 g8 g g fis~
-    fis e16 d cis8 a d d16 d d8 d
-    d d16. d32 fis8 a d gis, a a,
-    d4 r8 cis d d' r cis %70
-    d16. a32 fis16. a32 d,8 r a'16. e32 cis16. e32 a,8 r
+    fis e16 d cis8 a d d16\fE d d8 d
+    d d16.\pE d32 fis8 a d gis, a a,
+    d4 r8 cis\fE d d' r cis %70
+    d16.\pE a32 fis16. a32 d,8 r a'16. e32 cis16. e32 a,8 r
     h'16. fis32 d16. fis32 h,8 r fis'16. cis32 ais16. cis32 fis,8 r
     h d h d e g e g
     a,! a'16 g fis8 e d r d'16. a32 fis16. a32
-    d,8 d'4 cis8 d cis d cis %75
-    d16. a32 fis16. a32 d,8 c h g'4 fis8
-    g fis g fis g g, h cis!
+    d,8 d'4 cis8 d\fE cis d cis %75
+    d16. a32\pE fis16. a32 d,8 c h g'4 fis8
+    g\fE fis g fis g g,\pE h cis!
     d16. a32 fis16. a32 d8 r d'16. a32 fis16. a32 d8 r
     d, r a' r d h g a
-    d,4 r d r %80
-    \mvTr d16.\f-\tutti d'32 cis16. h32 a16. g32 fis16. e32 d4 r
+    d,4\fE r d r %80
+    d16.-\tutti d'32 cis16. h32 a16. g32 fis16. e32 d4 r
     d16. d'32 cis16. h32 a16. g32 fis16. e32 d4 r
     d'16. a32 fis16. a32 d,8 r a'16. e32 cis16. e32 a,8 r \noBreak
     d a' d, a' d d, r4
@@ -112,9 +113,10 @@ TeDeumOrgano = {
     a' r d, r a' r a, r
     cis r cis r d r d' r
     a r a r a r a r
-    a r a, r d r h r \noBreak
+    a r a, r d r h\pE r \noBreak
     g r a r d,2\fermata \bar "||" %110
     \key a \major \time 3/8 \tempoPer \newSpacingSection
+      \untightNotes
       \mvTr a''8\fE-\solo gis e \noBreak
     a a, cis
     d r d
@@ -123,9 +125,9 @@ TeDeumOrgano = {
     cis a a'
     gis e d
     cis a fis'
-    r e d
+    r e\pE d
     cis a' h %120
-    cis r a
+    cis\fE r a
     gis4 gis8
     a r a
     gis4 gis8
@@ -170,9 +172,9 @@ TeDeumOrgano = {
     e4 gis8
     r h a
     gis e r %165
-    r h' a
+    r h'\pE a
     gis e r
-    e gis a
+    e\fE gis a
     fis dis h
     e h' h, %170
     gis' dis4
@@ -180,13 +182,13 @@ TeDeumOrgano = {
     e dis\p h
     e4 r8
     a fis gis %175
-    a cis gis\fE
+    a\fE cis gis
     a a, r
     fis' h, cis
     d fis\pE gis!
     a h cis %180
     fis, gis a
-    e e'\fE d
+    e\fE e' d
     cis a dis,
     e e' d!
     cis\pE h a %185
@@ -220,16 +222,16 @@ TeDeumOrgano = {
     d fis gis
     a a, cis
     d e e, %215
-    a r a'\fE
+    a\fE r a'
     gis4 gis8
     a r a
     gis4 gis8
     a cis, d %220
     r e d
     cis a r
-    r e' d
+    r e'\pE d
     cis a e'
-    a cis, d %225
+    a\fE cis, d %225
     d fis gis
     a e e,
     cis'' gis r
@@ -264,7 +266,7 @@ TeDeumOrgano = {
     r e g
     h1 r2
     R1.
-    \mvTr dis,2\fE-\tuttiE-\markup \remark "pedale" e1 %260
+    dis,2-\tuttiE-\markup \remark "pedale" e1 %260
     h e2^\colOrg
     d! r ais
     h r cis
@@ -384,7 +386,7 @@ TeDeumBassFigures = \figuremode {
   r
   r4 <7>2.
   r4 q2.
-  r4 <5>8 <6> <7>4 <5 4>8 <\t 3> %50
+  r4. <6 5>8 <7>4 <5 4>8 <\t 3> %50
   r1
   r
   r2 r8 <6>4 \bo <[6]>8
@@ -393,7 +395,7 @@ TeDeumBassFigures = \figuremode {
   <[8] _+>4 <7 \t> <6 4>2
   <[5 _+]>4 <7 \t>2.
   <5>4 <6\\> <6>8 <[6]>4 <_+>8
-  r4. <6> <5 4>8 <\t _+>
+  r4. <6>8 <[6 5]>4 <5 4>8 <\t _+>
   r <6>4 <[6]>8 r2 %60
   <6 5>4 <7 _+>2 <6 5>8 <_+>
   r4. <4 2>8 <6>2
@@ -431,7 +433,7 @@ TeDeumBassFigures = \figuremode {
   r2 <5 4>4 <\t 3>
   <9> <8> <5 4> <\t _+> %95
   r1
-  <6 4>4 <5 _+>2.
+  <6 4>4 <\t \t>8 <5 _+> r2
   <6 5>2. <5>4
   r8 <6\\>4. <6 4>4 <5\+ _+>
   r2 <4\+ 2> %100
@@ -454,7 +456,7 @@ TeDeumBassFigures = \figuremode {
   q4 <4 2>8
   <7>16 <6> r4
   r4.
-  <7>16 <6> r4 %120
+  <7>16 <6>8. <[6]>8 %120
   <6>4 <4\+ 2>8
   <6>4 <5!>8
   r4 <4\+ 2>8
@@ -470,8 +472,8 @@ TeDeumBassFigures = \figuremode {
   r
   r4 <7>8
   r4. %135
-  r
-  r4 <6>8
+  \bo <[6]>
+  \bc q4 <6>8
   \bo <[4]> \bc <[3]> <4 2>
   <6>4.
   <4>16 <3>8. <4 2>8 %140
@@ -503,16 +505,16 @@ TeDeumBassFigures = \figuremode {
   r8 <_+> <\t>
   <7>16 <6> r4
   r4.
-  r
-  r8 <4> <_+> %170
-  <6>4 <[6]>8
-  r <6 5> <_+>
+  r4 <[_+]>8
+  r <4> <_+> %170
+  <6>8 <[6]>4
+  r8 <6 5> <_+>
   r \bo <[6]> <_+>
   r4.
   r8 <7> <5!> %175
   r4 \bc <[6]>8
   r4.
-  r8 <6!> <[6]>
+  r8 <6!> <[6 5!]>
   r <6> <[7]>
   r4. %180
   <6>8 \bo <[5]>4
@@ -546,9 +548,9 @@ TeDeumBassFigures = \figuremode {
   <6>
   r %210
   r
-  r
-  r
-  r
+  \bo <[6]>
+  r4 \bc q8
+  r4.
   r8 <4> <3> %215
   r4 <4\+ 2>8
   <6>4 <5!>8
@@ -560,8 +562,8 @@ TeDeumBassFigures = \figuremode {
   r4.
   <7>16 <6> r4
   r4. %225
-  r
-  r8 <4> <3>
+  r4 <[6]>8
+  r <4> <3>
   <6> <[6]>4
   r8 <6 5>4
   r4. %230
@@ -581,8 +583,8 @@ TeDeumBassFigures = \figuremode {
   <6>1.
   r1.*2 %246
   r2 <4\+ 2>1
-  <6>1.
-  <5>
+  <6>2 <6\\>1
+  <5>1.
   <7 [_+]> %250
   <_+>
   <[5!]>

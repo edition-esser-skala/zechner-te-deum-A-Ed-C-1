@@ -109,7 +109,7 @@ TeDeumTenore = {
     r e e
     dis1 r2
     R1.
-    \mvTr h2\fE^\tuttiE h2. h4 %260
+    h2^\tuttiE h2. h4 %260
     h1 cis2
     d! r cis
     h r e

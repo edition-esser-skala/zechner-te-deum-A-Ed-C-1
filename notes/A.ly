@@ -117,7 +117,7 @@ TeDeumAlto = {
     r g g
     fis1 \mvTr fis2\pE^\solo
     h2. fis4 fis2
-    \mvTr fis\fE^\tutti e2. e4 %260
+    fis^\tutti e2. e4 %260
     dis1 fis2
     fis r fis
     fis r e
@@ -143,15 +143,15 @@ TeDeumAlto = {
     h8. fis16 h8. fis16 h8 fis h d16([ cis)]
     h8 fis d fis h4( a!)
     g8 g16([ fis] e8) g16([ fis)] e8 h'16([ a)] g8 h16([ a)] %285
-    g8 fis g h16([ a)] g8 fis e fis
+    g8 fis g h16([ a)] g8 fis g^\critnote fis
     g4 fis e16[ fis] g4 fis8
     g h16([ a] g8) h16([ a] g8) fis g fis
     g h16([ a)] g8 fis d fis d fis
     d e16([ fis)] g4 fis8 a16([ g)] fis8([ a16 g)] %290
     fis4 r r8 a16([ g] fis8) a16([ g)]
     fis8 fis16([ e)] fis8 e gis a4 g8~
-    g fis4 e8 d8.[ e16] fis8 e
-    r fis16([ g] a8) fis g fis g fis
+    g fis4 e8 d8.[ e16] fis8.^\critnote e16
+    r8 fis16([ g] a8) fis g fis g fis
     g h d cis!16([ h)] a4 a %295
     R1
     a4 a a8. e16 a8. e16
@@ -159,7 +159,7 @@ TeDeumAlto = {
     a([ fis] e4) d8 fis16([ e)] d8([ fis16 e)]
     d8 a'16([ g)] fis8([ a16 g] fis8) e fis a16([ g)] %300
     fis8 e a a a4.( gis8)
-    a cis16([ h] a8) cis16([ h)] a8 gis a8. gis16
+    a cis16([ h] a8) cis16([ h)] a8.^\critnote gis16 a8. gis16
     a8 gis r gis( a) gis a gis
     a4. a8 a a r a16([ g)]
     fis8 a16([ g)] fis8([ a)] g4 r8 h16([ a)] %305
