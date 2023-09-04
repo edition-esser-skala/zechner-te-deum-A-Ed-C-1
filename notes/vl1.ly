@@ -4,6 +4,7 @@ TeDeumViolinoI = {
   \relative c' {
     \clef treble
     \key d \major \time 4/4 \tempoTeDeum
+      \tightNotes
     d'8\f d, fis a d16. e32 fis16. g32 \tuplet 3/2 8 { a16 g fis e[ d cis] }
     d16. d32 d,16. d32 fis16. fis32 a16. a32 d16. e32 fis16. g32 \tuplet 3/2 8 { a16 g fis e[ d cis] }
     d8 <fis a, d,> q q fis16. d'32 cis16. h32 a16. g32 fis16. e32
@@ -115,6 +116,7 @@ TeDeumViolinoI = {
     r fis g fis r e fis e r d e d r fis,\p g fis \noBreak
     e8 e e4\trill fis2\fermata \bar "||" %110
     \key a \major \time 3/8 \tempoPer \newSpacingSection
+      \untightNotes
       e'8\fE e e \noBreak
     cis16( d) e( cis) h( a)
     fis'( d) h'( gis) e( gis)
